@@ -1,0 +1,23 @@
+{
+  "name": "lambda_thumb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "zip -r lambda index.js node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathyleeu/lambda_thumb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cathyleeu/lambda_thumb/issues"
+  },
+  "homepage": "https://github.com/cathyleeu/lambda_thumb#readme",
+  "dependencies": {
+    "async": "^2.3.0",
+    "gm": "^1.23.0"
+  }
+}
