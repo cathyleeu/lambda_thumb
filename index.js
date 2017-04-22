@@ -39,7 +39,7 @@ const ThumbnailSizes = {
 }
 
 function destKeyFromSrcKey(key, suffix) {
-    return key.replace('origin/', `resize/${suffix}/`)
+    return key.replace('User-thumb/', `User-thumbresize/${suffix}/`)
 }
 
 function resizeAndUpload(response, size, srcKey, srcBucket, imageType, callback) {
